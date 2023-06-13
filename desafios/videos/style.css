@@ -1,0 +1,28 @@
+* {
+   margin: 0px;
+   padding: 0px; 
+}
+
+h1 {
+    text-align: center;
+}
+
+
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+.video {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 3px;
+}
+
+.botao {
+    text-align: center;
+    margin: 10px 48%;
+}
