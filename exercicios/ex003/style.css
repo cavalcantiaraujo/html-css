@@ -1,0 +1,26 @@
+* {
+    height: auto;
+    width: 400px auto;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(31, 129, 31, 0.753);
+    margin-top: 50px;
+    padding: 5px;
+    border-style: solid;
+    border-color: antiquewhite;
+
+}
+
+.ipb {
+    width: 400px;
+
+}
+
+.text-ipb {
+    color: beige;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: aquamarine;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: blue;
+    text-align: center;    
+}
+
+h2 {
+    color: lightseagreen;
+}
+
+p {
+    text-align: justify;
+    padding: auto;
+}

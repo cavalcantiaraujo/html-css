@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexiveis</title>
+</head>
+<body>
+    <h1>Testando o tamanho das imagens</h1>
+    <p>Como colocar imagens para ficar em diferentes tamanhos de acordo com o tamanho da tela do usuário.</p>
+    <picture>
+        <source media="(max-width: 5000px )" srcset="Imagens/tamanho-p.png" type="image/png">
+        <source media="(max-width: 550px )" srcset="Imagens/tamanho-m.png" type="image/png">
+        <source media="(max-width: 850px )" srcset="Imagens/tamanho-g.png" type="image/png">
+        <img src="Imagens/tamanho-gg.png" alt="Tamanho GG">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzia áudios em HTML5</p>
+    <audio src="midia/tu-es-soberano - Solas.mp3" controls></audio>
+    <p>Outra forma de colocar o áudio:</p>
+    <audio controls>
+        <source src="midia/tua_forte_mao_ao_vivo..mp3" type="audio/mpeg">
+        <source src="midia/tua_forte_mao_ao_vivo..mp3" type="audio/ogg">
+    </audio>
+</body>
+</html>
