@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 400px) and (min-width: 200px) {}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.text {
+    font-size: 3cqmax;
+    max-width: 400px;
+    max-height: 400px;
+    padding-left: 40px;
+    line-height: 2em;
+}
+
+.image1 p {
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 400px;
+}
+
+.image2 p {
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 400px;
+}
+
+section {
+    padding: 10vh 0;    
+}
+
+.image1 {
+    color: white;
+    background: white url(../pacote/imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+.image2 {
+    color: white;
+    background: white url(../pacote/imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
