@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-@media only screen and (max-width: 400px) and (min-width: 200px) {}
+
 
 body {
     min-height: 100vh;
@@ -18,6 +18,7 @@ header {
 h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 8vw;
 }
 
 p {
@@ -35,30 +36,30 @@ a:hover {
 }
 
 .text {
-    font-size: 3cqmax;
-    max-width: 400px;
-    max-height: 400px;
-    padding-left: 40px;
+    font-size: 3vw;
     line-height: 2em;
 }
 
 .image1 p {
-    background-color: rgba(0, 0, 0, 0.322);
-    width: 400px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 10px;
 }
 
 .image2 p {
-    background-color: rgba(0, 0, 0, 0.322);
-    width: 400px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 10px;
 }
 
 section {
-    padding: 10vh 0;    
+    padding: 10vh 0;
+    padding-left: 40px;    
 }
 
 .image1 {
     color: white;
-    background: white url(../pacote/imagens/background001.jpg) center center no-repeat fixed;
+    background: white url(../pacote/imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
 }
 
